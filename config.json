@@ -4,7 +4,7 @@
     "unknown_below": 0.05,
     "mixed_gap": 0.1,
     "weak_below": 0.3,
-    "decay_factor": 0.8
+    "decay_factor": 0.7
   },
   "score": {
     "neutral": 50,

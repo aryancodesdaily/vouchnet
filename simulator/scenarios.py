@@ -47,7 +47,7 @@ def indirect():
     _org("S", {1001: 90})
     r = check_pr("P", 1001, "Fix crash on startup when config missing", "Adds a default config fallback")
     ok = r["verdict"] == "vouched" and abs(r["trust"] - 0.32) < 1e-9 and r["via"] == ["P", "Q", "S"]
-    return {"name": "indirect trust 0.5 x 0.8 with 0.8 decay", "passed": ok, "result": r}
+    return {"name": "indirect trust 0.5 x 0.8 with 0.7 decay", "passed": ok, "result": r}
 
 
 def newcomer():
