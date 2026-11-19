@@ -1,0 +1,32 @@
+{
+  "trust": {
+    "max_hops": 2,
+    "unknown_below": 0.05,
+    "mixed_gap": 0.1,
+    "weak_below": 0.3,
+    "decay_factor": 0.8
+  },
+  "score": {
+    "neutral": 50,
+    "vouch_start": 70,
+    "denounce_start": 20,
+    "vouch_points": 50,
+    "flag_points": -50,
+    "merged_points": 3,
+    "rejected_points": -2,
+    "clean_check_points": 1,
+    "analysis_cap": 60,
+    "alert_points": -10,
+    "max_up_per_update": 5,
+    "max_down_per_update": 10
+  },
+  "campaign": {
+    "simhash_distance": 6,
+    "repeat_min": 3,
+    "repeat_min_orgs": 2,
+    "window_hours": 24,
+    "burst_limit": 10,
+    "burst_hours": 1,
+    "min_words": 5
+  }
+}
