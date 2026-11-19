@@ -31,7 +31,3 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
-
-# Local imports
-data/imports/*
-!data/imports/.gitkeep
